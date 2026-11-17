@@ -78,7 +78,7 @@ The weights come from the [`amazon/chronos-2`](https://huggingface.co/amazon/chr
 ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42
 ```
 
-They ship as fp32 safetensors shards of at most 45 MB each, split from that file with every tensor bit-identical to upstream. [`weights/manifest.json`](weights/manifest.json) records the upstream source and each shard's size and SHA-256, and `make verify-weights` checks the files against it.
+They ship as 12 fp32 safetensors shards of at most 45 MB each, split from that file with every tensor bit-identical to upstream. The shards live three apiece in four part modules, [`chronos2-go-base-part1`](https://github.com/pinkhop/chronos2-go-base-part1) through [`-part4`](https://github.com/pinkhop/chronos2-go-base-part4), which keeps each module small enough for the Go module proxy to serve; this module requires all four, and `go get` fetches them automatically. Each part's `weights/manifest.json` records the upstream source and its shards' sizes and SHA-256s. This module's [`weights/manifest.json`](weights/manifest.json) records the config's SHA-256 and lists the parts.
 
 
 ## Contributing

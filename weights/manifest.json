@@ -5,80 +5,11 @@
     "file": "model.safetensors",
     "sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42"
   },
-  "max_shard_bytes": 45000000,
   "config_sha256": "ef1143bfdc9c0376d9a056eefca46cb4b1ec3d0ffacd541ff56feb40fb708031",
-  "shards": [
-    {
-      "file": "model-00001-of-00012.safetensors",
-      "bytes": 44840896,
-      "sha256": "c85f9f35ee604a17106a65a8b9b17d00eba681a62224ebc2db786d126c689887",
-      "tensors": 17
-    },
-    {
-      "file": "model-00002-of-00012.safetensors",
-      "bytes": 44840912,
-      "sha256": "c23d1e164ba2bcfb8a314bcd59bdf75b023798cd271b6cc4c11a6585926792b2",
-      "tensors": 17
-    },
-    {
-      "file": "model-00003-of-00012.safetensors",
-      "bytes": 42481512,
-      "sha256": "10dd518e51094494ca844e07c04be336d356b82ec3d90d3307aa7ad3bf8c5b42",
-      "tensors": 16
-    },
-    {
-      "file": "model-00004-of-00012.safetensors",
-      "bytes": 37759488,
-      "sha256": "3d0bcee7d99f08103f7b6f5f84d7323b8d2b9ed71a71af0f9a0596dec6cef2bd",
-      "tensors": 13
-    },
-    {
-      "file": "model-00005-of-00012.safetensors",
-      "bytes": 37759488,
-      "sha256": "6326829b36022b402947e10fd34a5eecf336c86c41bdb3c8c16a066fdbb42637",
-      "tensors": 13
-    },
-    {
-      "file": "model-00006-of-00012.safetensors",
-      "bytes": 37759488,
-      "sha256": "178b8ae1100f217942347bead90cab1594c1868be454da01a59c003722afcb38",
-      "tensors": 13
-    },
-    {
-      "file": "model-00007-of-00012.safetensors",
-      "bytes": 37759488,
-      "sha256": "ece4d17ba53d78eaf75208683c35338e7faec77b04390ad249744a948c563529",
-      "tensors": 13
-    },
-    {
-      "file": "model-00008-of-00012.safetensors",
-      "bytes": 37759488,
-      "sha256": "5a3d8c10d7717d2767b2f82fac705b18283ca744948328fab65fd7cf35e23e5b",
-      "tensors": 13
-    },
-    {
-      "file": "model-00009-of-00012.safetensors",
-      "bytes": 37759488,
-      "sha256": "f0f86171eeb00cf5a92e1fbf1a76d3952752b7140fdee7edbbcafbbe9b6ad4f3",
-      "tensors": 13
-    },
-    {
-      "file": "model-00010-of-00012.safetensors",
-      "bytes": 37759488,
-      "sha256": "970cc12d662c1cd39dd774d494f5dc6494009f7d148784a666dc1228b48c7bf4",
-      "tensors": 13
-    },
-    {
-      "file": "model-00011-of-00012.safetensors",
-      "bytes": 37759488,
-      "sha256": "f9028524d4fa1b25b0b765fa69f4fb20fd1c324ff26aa541bdc09086fb55a4ff",
-      "tensors": 13
-    },
-    {
-      "file": "model-00012-of-00012.safetensors",
-      "bytes": 43691376,
-      "sha256": "ba95d3479944e7126ff2415631caf4d9c13eb9cafa4f912acefc4acbc5412e5d",
-      "tensors": 16
-    }
+  "shard_modules": [
+    "github.com/pinkhop/chronos2-go-base-part1",
+    "github.com/pinkhop/chronos2-go-base-part2",
+    "github.com/pinkhop/chronos2-go-base-part3",
+    "github.com/pinkhop/chronos2-go-base-part4"
   ]
 }

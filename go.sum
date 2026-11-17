@@ -1,0 +1,10 @@
+github.com/pinkhop/chronos2-go v1.0.0 h1:zI1ZBcyU9aO/bPO4R7vUnnNW/xc8u7k+hAXe8FsC8Uo=
+github.com/pinkhop/chronos2-go v1.0.0/go.mod h1:cDpo7Pm+PdkWyJ3mfBMX1ncFHApAobPP1ghQ31Xmb78=
+github.com/pinkhop/chronos2-go-base-part1 v1.0.0 h1:Yc/0FsbfCfADGLlQQYcsjmEhM4UmP8cTKa8WHC6tQng=
+github.com/pinkhop/chronos2-go-base-part1 v1.0.0/go.mod h1:c9jMZPgqKRXK7bL5C4U3DwcqEUjnhObjeZcIjxrIDmY=
+github.com/pinkhop/chronos2-go-base-part2 v1.0.0 h1:lvHthe1wcGxgjQQSdkPF+t8MmLz9xk3pA1q3B4UD9/Q=
+github.com/pinkhop/chronos2-go-base-part2 v1.0.0/go.mod h1:1z9qXw0erpiWSq4iYjNm87LZH4Q6m9j+9YqiGrmCnEE=
+github.com/pinkhop/chronos2-go-base-part3 v1.0.0 h1:FExjJEvtead/gwWx6uCN1L+ldBeMmWCoshU8lET9M8k=
+github.com/pinkhop/chronos2-go-base-part3 v1.0.0/go.mod h1:65Z2PMi+eyGjAAecRKE8uB/3yAPMKpMYizP99Djo0bU=
+github.com/pinkhop/chronos2-go-base-part4 v1.0.0 h1:H68M7dxjvGhBCglGfxU7DTqINzE+F+8dmQIkOX+H2LU=
+github.com/pinkhop/chronos2-go-base-part4 v1.0.0/go.mod h1:bAujsOP4NSrfj96fvA7bpqgRiewRAjsoywk5K8V+kkg=
